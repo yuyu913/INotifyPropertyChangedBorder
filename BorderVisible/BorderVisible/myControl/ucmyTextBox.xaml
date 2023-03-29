@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="BorderVisible.myControl.ucmyTextBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BorderVisible.myControl"
+             mc:Ignorable="d" 
+             >
+    <Border Width="80" Height="30" BorderBrush="{Binding BorderBrushColor}" BorderThickness="1">
+        <TextBox Text="{Binding Content}"/>
+    </Border>
+</UserControl>
